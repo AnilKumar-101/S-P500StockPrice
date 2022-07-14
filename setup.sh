@@ -9,6 +9,6 @@ echo "\
 [server]\n\
 headless = true\n\
 enableCORS=false\n\
-port = 443\n\
+port = .listen(process.env.PORT || 5000)\n\
 " > ~/.streamlit/config.toml
 
