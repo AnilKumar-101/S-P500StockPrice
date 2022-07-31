@@ -11,5 +11,3 @@ headless = true\n\
 enableCORS=true\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
-
-heroku config:set PORT=8080
